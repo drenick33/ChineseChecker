@@ -29,7 +29,7 @@ if (curTheme === '') {
   localStorage.setItem('curTheme', curTheme); //Sets default light theme
 } //Set default theme
 
-document.title = 'Daniel Renick';
+document.title = '中文 Check';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeSwitcherProvider themeMap={themes} defaultTheme={curTheme}>
